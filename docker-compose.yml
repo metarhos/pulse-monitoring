@@ -1,0 +1,51 @@
+version: '2.1'
+
+services:
+  config-server:
+    build: pulse-config-server
+    
+   
+  abnormal-processor:
+    build: abnormal-values-processor
+    mem_limit: 350m
+    
+
+  
+    
+
+  discovery-server:
+    build: pulse-discovery-server
+    
+       
+  configurator:
+    build: pulse-configurater
+    mem_limit: 350m
+    
+  gateway:
+    build: pulse-gateway
+    ports:
+      - "9090:9090"     
+    
+  dispatcher:
+    build: pulse-dispatcher
+    mem_limit: 350m
+    
+  doctor-data:
+    build: pulse-doctor-data
+    mem_limit: 350m
+    environment:
+      - SPRING_PROFILES_ACTIVE=product
+      - DB_PASSWORD=d584e5dd7eb6d86217d03dc29a0349d8944d297bf14b16f3d13f2fa24d54c7e2
+       
+  provider:
+    build: pulse-provider
+    mem_limit: 350m 
+        
+  reducer:
+    build: pulse-reducer
+    mem_limit: 350m  
+    
+       
+    
+      
+      
