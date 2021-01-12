@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pulse-reducer" />
+        <module name="pulse-dispatcher" />
+        <module name="pulse-discovery-server" />
+        <module name="pulse-configurater" />
+        <module name="abnormal-values-processor" />
+        <module name="pulse-jpa-repository" />
+        <module name="pulse-provider" />
+        <module name="pulse-monitoring-dto" />
+        <module name="pulse-gateway" />
+        <module name="pulse-load-balancer" />
+        <module name="pulse-config-server" />
+        <module name="pulse-doctor-data" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="abnormal-values-processor" target="1.8" />
+      <module name="pulse-config-server" target="1.8" />
+      <module name="pulse-configurater" target="1.8" />
+      <module name="pulse-discovery-server" target="1.8" />
+      <module name="pulse-dispatcher" target="1.8" />
+      <module name="pulse-doctor-data" target="1.8" />
+      <module name="pulse-gateway" target="1.8" />
+      <module name="pulse-jpa-repository" target="1.8" />
+      <module name="pulse-load-balancer" target="1.8" />
+      <module name="pulse-monitoring-dto" target="1.8" />
+      <module name="pulse-monitoring-parent" target="1.8" />
+      <module name="pulse-provider" target="1.8" />
+      <module name="pulse-reducer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="abnormal-values-processor" options="-parameters" />
+      <module name="pulse-config-server" options="-parameters" />
+      <module name="pulse-configurater" options="-parameters" />
+      <module name="pulse-discovery-server" options="-parameters" />
+      <module name="pulse-dispatcher" options="-parameters" />
+      <module name="pulse-doctor-data" options="-parameters" />
+      <module name="pulse-gateway" options="-parameters" />
+      <module name="pulse-jpa-repository" options="-parameters" />
+      <module name="pulse-load-balancer" options="-parameters" />
+      <module name="pulse-monitoring-dto" options="-parameters" />
+      <module name="pulse-provider" options="-parameters" />
+      <module name="pulse-reducer" options="-parameters" />
+    </option>
+  </component>
+</project>

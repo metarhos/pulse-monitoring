@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/abnormal-values-processor/abnormal-values-processor.iml" filepath="$PROJECT_DIR$/abnormal-values-processor/abnormal-values-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-config-server/pulse-config-server.iml" filepath="$PROJECT_DIR$/pulse-config-server/pulse-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-configurater/pulse-configurater.iml" filepath="$PROJECT_DIR$/pulse-configurater/pulse-configurater.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-discovery-server/pulse-discovery-server.iml" filepath="$PROJECT_DIR$/pulse-discovery-server/pulse-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-dispatcher/pulse-dispatcher.iml" filepath="$PROJECT_DIR$/pulse-dispatcher/pulse-dispatcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-doctor-data/pulse-doctor-data.iml" filepath="$PROJECT_DIR$/pulse-doctor-data/pulse-doctor-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-gateway/pulse-gateway.iml" filepath="$PROJECT_DIR$/pulse-gateway/pulse-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-jpa-repository/pulse-jpa-repository.iml" filepath="$PROJECT_DIR$/pulse-jpa-repository/pulse-jpa-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-load-balancer/pulse-load-balancer.iml" filepath="$PROJECT_DIR$/pulse-load-balancer/pulse-load-balancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-monitoring-dto/pulse-monitoring-dto.iml" filepath="$PROJECT_DIR$/pulse-monitoring-dto/pulse-monitoring-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-monitoring-parent.iml" filepath="$PROJECT_DIR$/pulse-monitoring-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-provider/pulse-provider.iml" filepath="$PROJECT_DIR$/pulse-provider/pulse-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pulse-reducer/pulse-reducer.iml" filepath="$PROJECT_DIR$/pulse-reducer/pulse-reducer.iml" />
+    </modules>
+  </component>
+</project>
